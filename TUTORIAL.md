@@ -23,4 +23,18 @@ Replace the ydlidar_ros2_driver_node.cpp file found inside of /ydlidar_ros2_driv
 
 To get the two launch commands working, we have to replace the launch files.  Simply replace the files found in ydlidar_ros2_driver/launch (inside of the workspace) with the other two files. 
 
+Now build the workspace by using 
+>colcon build
+
+
+The ros2 commands 
+>ros2 launch ydlidar_ros2_driver ydlidar_launch.py
+>
+>ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
+
+should now work.  
+
+
+
+Credit to [https://qiita.com/Yuya-Shimizu/items/c516b076ecc15864c0c5](url) for discovering the syntax issues that made these fixes possible. 
 
