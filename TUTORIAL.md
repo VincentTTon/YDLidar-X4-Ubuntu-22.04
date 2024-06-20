@@ -21,4 +21,6 @@ At this point, the LiDAR should spin and output "Scan Received".  If not, double
 ## Step Two:
 Replace the ydlidar_ros2_driver_node.cpp file found inside of /ydlidar_ros2_driver/src (which is usually inside your ros2 workspace) with the file in this repo. 
 
+To get the two launch commands working, we have to replace the launch files.  Simply replace the files found in ydlidar_ros2_driver/launch (inside of the workspace) with the other two files. 
+
 
