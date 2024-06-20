@@ -2,7 +2,7 @@
 
 Like many others before me, I ran into trouble running the ros2 commands for YDLidar X4 on ROS2 Humble or later.  As it turns out, the SDK contains many errors that need to be corrected for the lidar to operate correctly.  
 
-**This guide is intended to be used after installing the YDLidar X4 SDK and building the ROS2 workspace, as described in** [https://github.com/YDLIDAR/ydlidar_ros2_driver](url)
+**This guide is intended to be used after installing the YDLidar X4 SDK and building the ROS2 workspace, as described in** [https://github.com/YDLIDAR/ydlidar_ros2_driver](https://github.com/YDLIDAR/ydlidar_ros2_driver)
 
 
 ## Step One:
@@ -39,5 +39,5 @@ should now work.
 
 
 
-Credit to [https://qiita.com/Yuya-Shimizu/items/c516b076ecc15864c0c5](url) for discovering the syntax issues that made these fixes possible. 
+Credit to [https://qiita.com/Yuya-Shimizu/items/c516b076ecc15864c0c5](https://qiita.com/Yuya-Shimizu/items/c516b076ecc15864c0c5) for discovering the syntax issues that made these fixes possible. 
 
