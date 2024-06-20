@@ -1,1 +1,0 @@
-# YDLidar-X4-Ubuntu-22.04
